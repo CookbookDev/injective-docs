@@ -57,6 +57,7 @@ under the License.
     <% end %>
 
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@cookbookdev/docsbot/dist/standalone/index.cjs.js" defer></script>
   </head>
 
   <body class="<%= page_classes %>" data-languages="<%=h language_tabs.map{ |lang| lang.is_a?(Hash) ? lang.keys.first : lang }.to_json %>">
@@ -165,5 +166,6 @@ under the License.
         <% end %>
       </div>
     </div>
+    <div id="__cookbook" data-api-key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NmY3ZDFlNjU2ZDQyNWJiYmVhNzE2NjkiLCJpYXQiOjE3Mjc1MTcxNTgsImV4cCI6MjA0MzA5MzE1OH0.87rSHswgdKhHumY1C7Zy3jXi1Hla9neCOeXuMJiuNL8"></div>
   </body>
 </html>
